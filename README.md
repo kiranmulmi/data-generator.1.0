@@ -6,3 +6,6 @@ Requirements
 **Apache Server**
 
 Configured with **sqllite** database to save connection settings
+
+#Sample Screenshot
+![GitHub Logo](/screenshot.JPG)
