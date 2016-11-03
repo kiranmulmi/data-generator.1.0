@@ -1,0 +1,145 @@
+.small-input{
+    width: 60px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    /*font-size: 13px;*/
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table tr {
+    max-height: 50px;
+    overflow: hidden;
+}
+
+table th, table td {
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    /*font-family:Arial, Helvetica, sans-serif;*/
+    font-size: 10.5px;
+    padding: 3px;
+}
+#preview-table th, #preview-table td {
+    /*max-width: 250px;*/
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.light-grey {
+    color: darkgray;
+}
+
+.td-height {
+    max-height: 50px;
+    overflow: auto;
+}
+.clearfix {
+    clear:both;
+}
+.header{
+    height: 20px;
+}
+.logo {
+    width: 18%;
+    float: left;
+    border: 1px solid grey;
+}
+
+.breadcrumb {
+    float: left;
+    width: 70%;
+    margin-left: 2%;
+}
+
+.left-nav {
+    width:18%;
+    height: 100%;
+    float: left;
+    overflow: auto;
+    font-size: 12px;
+    border: 1px solid grey;
+    padding: 5px;
+}
+a {
+    text-decoration:none;
+    color: blue;
+}
+.left-nav a {
+    color: dimgray;
+}
+
+.main-body {
+    float: left;
+    width: 78%;
+    border-right: 1px solid grey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin: 5px;
+    padding: 5px;
+    height:95%;
+}
+
+.link-active {
+    display: block;
+    background: #cacaca;
+    padding: 1px;
+    color: black;
+}
+
+.column-description {
+    max-height: 250px;
+    padding: 15px;
+    border: 1px solid grey;
+    float: left;
+    overflow-y: auto;
+}
+
+.preview {
+    max-height: 300px;
+    width: 90%;
+    overflow: auto;
+    border: 1px solid grey;
+    padding: 15px;
+}
+
+.generate-meter {
+    float: left;
+    width: 200px;
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.database-list li{
+    list-style: none;
+}
+.ajax-loader{
+    height: 39px;
+    width: 39px;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-image: url("includes/loader.gif");
+}
+.connection-table {
+    padding: 10px;
+    background: rgba(128, 128, 128, 0.08);
+}
+
+.connection-add {
+    background: rgba(169, 169, 169, 0.32);
+    padding: 10px;
+    margin: 10px;
+}
+.connection-add td, .connection-add th {
+    border: none;
+    color: #483d1e;
+}
+
